@@ -1,0 +1,40 @@
+@font-face {
+  font-family: RobotoMono;
+  src: url(../font/RobotoMono-Regular.ttf);
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h4 {
+  font-family: RobotoMono;
+  font-size: 15px;
+}
+.social-link {
+  width: 300px;
+  border: 10px inset #e4000f;
+  background-color: #720007;
+}
+.social-link img {
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+}
+.social-link a {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin: 10px 0px;
+  color: #f8f8f8;
+  text-decoration: none;
+}
+.social-link h4 {
+  display: inline-block;
+  padding: 20px;
+}
+.textContent{
+  padding: 0;
+  margin: 0;
+}
